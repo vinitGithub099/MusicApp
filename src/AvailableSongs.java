@@ -5,7 +5,9 @@ public class AvailableSongs {
     private ArrayList<String> songList;
     private static AvailableSongs availableSongs;
 
-    private AvailableSongs() {}
+    private AvailableSongs() {
+        songList = new ArrayList<>();
+    }
 
     public static AvailableSongs getAvailableSongs() {
         if (availableSongs == null) {
@@ -17,7 +19,6 @@ public class AvailableSongs {
     // add the downloaded song to the list of available songs
     public void addDownLoadedSong(String songName) {
         this.songList.add(songName);
-        return;
     }
 
     // check if song is availble in the downloaded songs list
