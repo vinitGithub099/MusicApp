@@ -5,6 +5,8 @@ public class App {
 
         AvailableSongs avl = AvailableSongs.getAvailableSongs();
         avl.addDownLoadedSong("s");
+        avl.addDownLoadedSong("t");
+        avl.addDownLoadedSong("su");
         avl.addDownLoadedSong("Gallan");
     
         System.out.println("Input song name to play:");

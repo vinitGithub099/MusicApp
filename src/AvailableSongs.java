@@ -26,6 +26,4 @@ public class AvailableSongs {
         return this.songList.contains(songName);
     }
 
-    
-
 }
