@@ -12,6 +12,6 @@ already playing, nothing happens (State Design Pattern).
 
 
 ### Contributers:
-Twinshu Parmar https://github.com/twi05
-Vinit Kumbhare https://github.com/vinitGithub099
+Twinshu Parmar https://github.com/twi05 <br>
+Vinit Kumbhare https://github.com/vinitGithub099<br>
 Kartik Gamot https://github.com/kart027
