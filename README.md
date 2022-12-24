@@ -1,18 +1,17 @@
-## Getting Started
+# Online Music Downloader and Player
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## A Java Low Level Design Application following SOLID Principle
+This application allows you to listen to your favourite music online. It first checks to see whether
+the music has already been downloaded; if not, it searches for available servers (Mediator Design
+pattern searches for and returns available servers). Music begins downloading if it finds any
+available servers. Downloaded music is saved in a virtual storage-space of a single instance
+(Singleton Design Pattern). Music begins playing as soon as the download is finished. If the music
+has already been downloaded, it simply begins playing (Proxy Design Pattern verifies the same.).
+A music can be in two states: Play and Pause. If the user commands play twice while a song is
+already playing, nothing happens (State Design Pattern).
 
-## Folder Structure
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+### Contributers:
+Twinshu Parmar https://github.com/twi05 <br>
+Vinit Kumbhare https://github.com/vinitGithub099<br>
+Kartik Gamot https://github.com/kart027
